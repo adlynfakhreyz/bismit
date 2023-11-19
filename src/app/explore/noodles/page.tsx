@@ -84,7 +84,7 @@ export default function noodles() {
 
         {/* Element at the bottom */}
         <div className="flex-shrink-0">
-          <div className="footer-container mx-auto max-w-screen-lg">
+          <div className="footer-container">
             <Image src={footer} alt="footer" className="footer-image" />
 
             <div className="footer-content">
