@@ -21,7 +21,7 @@ export default function Home() {
         </div>
       </nav>
 
-      <div className='footer-container'>
+      <div className='footer-container bottom-0'>
 				<Image src={footer} alt='footer' className='footer-image'/>
 				<div className='footer-content'>
 					<p className='review-text'>
