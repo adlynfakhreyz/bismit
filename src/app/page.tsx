@@ -1,9 +1,9 @@
 import Link from 'next/link';
-import './globals.css';
+import 'src/app/globals.css'; 
 import Head from 'next/head';
 import Image from 'next/image';
-import sendokgarpu from 'public\\sendok-garpu.png'
-import footer from 'public\\footer.png'
+import sendokgarpu from 'public/sendok-garpu.png'
+import footer from 'public/footer.png'
 
 export default function Home() {
   return (
