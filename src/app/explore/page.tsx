@@ -15,10 +15,10 @@ export default function explore() {
           <p className='review-kantin self-center'>Review Kantin</p>
         </div>
         <div className='flex flex-row'>
-          <Link href=''><button className='nav-button'>Find on Map</button></Link>
-          <Link href=''><button className='nav-button'>Reviews</button></Link>
+          <Link href='\find-on-map'><button className='nav-button'>Find on Map</button></Link>
+          <Link href='\reviews'><button className='nav-button'>Reviews</button></Link>
           <Link href='\explore'><button className='nav-button'>Explore</button></Link>
-          <Link href=''><button className='nav-button'>Meet the Team</button></Link>
+          <Link href='\meet-the-team'><button className='nav-button'>Meet the Team</button></Link>
         </div>
       </nav>
 
@@ -76,10 +76,10 @@ export default function explore() {
 
             <div className="footer-nav">
               <div className="grid grid-rows-4 footer">
-                <button className="footer-button">Find on Map</button>
-                <button className="footer-button">Explore</button>
-                <button className="footer-button">Reviews</button>
-                <button className="footer-button">Meet the Team</button>
+                <Link href='/find-on-map' className='flex justify-start'><button className="footer-button">Find on Map</button></Link>
+                <Link href='/explore' className='flex justify-start'><button className="footer-button">Explore</button></Link>
+                <Link href='/reviews' className='flex justify-start'><button className="footer-button">Reviews</button></Link>
+                <Link href='/meet-the-team' className='flex justify-start'><button className="footer-button">Meet the Team</button></Link>
               </div>
             </div>
           </div>

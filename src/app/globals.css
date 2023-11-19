@@ -80,7 +80,7 @@ body {
   min-width: max-content;
   background-color: transparent;
   color: #ffffff;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
 }
 
@@ -114,6 +114,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
   align-self: flex-end;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
 }
 
 .kantin-text{
@@ -124,6 +125,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
   align-self: flex-start;
+  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
 }
 
 .footer-container {
@@ -144,6 +146,16 @@ body {
   line-height: 4.2vw;
   letter-spacing: 0em;
   text-align: left;
+  transition: color 0.4s, text-shadow 0.4s, opacity 0.1s;
+}
+
+.footer-button:hover {
+  color: red;
+  text-shadow: 0 0 5px rgb(255, 255, 255,0.8);
+}
+
+.footer-button:active {
+  opacity: 0.5;
 }
 
 .footer-content {
