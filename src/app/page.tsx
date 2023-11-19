@@ -20,24 +20,26 @@ export default function Home() {
           <Link href=''><button className='nav-button'>Meet the Team</button></Link>
         </div>
       </nav>
-
-      <div className='footer-container bottom-0'>
-				<Image src={footer} alt='footer' className='footer-image'/>
-				<div className='footer-content'>
-					<p className='review-text'>
-            Review<br/>
-            <span className='kantin-text'>Kantin</span>
-          </p>
-				</div>
-				<div className='footer-nav'>
-					<div className='grid grid-rows-4 footer'>
-						<button className='footer-button'>Find on Map</button>
-						<button className='footer-button'>Explore</button>
-						<button className='footer-button'>Reviews</button>
-						<button className='footer-button'>Meet the Team</button>
-					</div>
-				</div>
-			</div>
+      <div className='fixed bottom-0 right-0'>
+        <div className='footer-container'>
+          <Image src={footer} alt='footer' className='footer-image'/>
+          <div className='footer-content'>
+            <p className='review-text'>
+              Review<br/>
+              <span className='kantin-text'>Kantin</span>
+            </p>
+          </div>
+          <div className='footer-nav'>
+            <div className='grid grid-rows-4 footer'>
+              <button className='footer-button'>Find on Map</button>
+              <button className='footer-button'>Explore</button>
+              <button className='footer-button'>Reviews</button>
+              <button className='footer-button'>Meet the Team</button>
+            </div>
+          </div>
+        </div>
+      </div>
+        
     </main>
   )
 }
