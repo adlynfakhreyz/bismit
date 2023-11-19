@@ -2,8 +2,8 @@ import Link from 'next/link';
 import './globals.css';
 import Head from 'next/head';
 import Image from 'next/image';
-import sendokgarpu from 'public\\sendok-garpu.png'
-import footer from 'public\\footer.png'
+import sendokgarpu from '/workspaces/bismit/public/sendok-garpu.png'
+import footer from '/workspaces/bismit/public/footer.png'
 
 export default function Home() {
   return (
