@@ -1,0 +1,12 @@
+# dict1 = {'a':2,3:['x','y'],'joe':'smith'}
+
+# s = dict1.values()
+
+# print(s)
+def f(param):
+    param = 32
+    print(param)
+
+arg = 25
+f(arg)
+print(arg)
