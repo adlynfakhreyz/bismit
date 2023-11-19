@@ -76,35 +76,35 @@ export default function noodles() {
 				</div>
 			</div>
 
-			{/* <p className='review-text'>Review</p>
-						<p className='kantin-text'>Kantin</p>
+			<div className="min-h-screen flex flex-col">
+        {/* Your main content */}
+        <div className="flex-grow">
+          {/* Your existing content goes here */}
+        </div>
 
-						<div className='grid grid-rows-4 footer'>
-						<button className='footer-button'>Find on Map</button>
-						<button className='footer-button'>Explore</button>
-						<button className='footer-button'>Reviews</button>
-						<button className='footer-button'>Meet the Team</button>
-					</div> */}
+        {/* Element at the bottom */}
+        <div className="flex-shrink-0">
+          <div className="footer-container mx-auto max-w-screen-lg">
+            <Image src={footer} alt="footer" className="footer-image" />
 
+            <div className="footer-content">
+              <p className="review-text">
+                Review<br />
+                <span className="kantin-text">Kantin</span>
+              </p>
+            </div>
 
-
-			<div className='footer-container bottom-0'>
-				<Image src={footer} alt='footer' className='footer-image'/>
-				<div className='footer-content'>
-					<p className='review-text'>
-            Review<br/>
-            <span className='kantin-text'>Kantin</span>
-          </p>
-				</div>
-				<div className='footer-nav'>
-					<div className='grid grid-rows-4 footer'>
-						<button className='footer-button'>Find on Map</button>
-						<button className='footer-button'>Explore</button>
-						<button className='footer-button'>Reviews</button>
-						<button className='footer-button'>Meet the Team</button>
-					</div>
-				</div>
-			</div>
+            <div className="footer-nav">
+              <div className="grid grid-rows-4 footer">
+                <button className="footer-button">Find on Map</button>
+                <button className="footer-button">Explore</button>
+                <button className="footer-button">Reviews</button>
+                <button className="footer-button">Meet the Team</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>				
     </main>
   )
 }

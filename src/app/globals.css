@@ -128,7 +128,6 @@ body {
 
 .footer-container {
   position: relative;
-  align-self: flex-end;
   width: 100%;
   height: 100%;
 }
