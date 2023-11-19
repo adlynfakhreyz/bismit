@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import 'src/app/globals.css';
-import 'src/app/explore/style.css';
+import 'src\\app\\style.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import sendokgarpu from 'public/sendok-garpu.png'
