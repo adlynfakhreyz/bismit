@@ -1,10 +1,10 @@
 import Link from 'next/link';
-import 'src\\app\\explore\\style.css';
-import 'src\\app\\globals.css';
+import 'src/app/globals.css';
+import 'src/app/explore/style.css';
 import Head from 'next/head';
 import Image from 'next/image';
-import sendokgarpu from 'public\\sendok-garpu.png'
-import footer from 'public\\footer.png'
+import sendokgarpu from 'public/sendok-garpu.png'
+import footer from 'public/footer.png'
 
 export default function explore() {
   return (
