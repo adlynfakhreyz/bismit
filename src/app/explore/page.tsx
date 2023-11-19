@@ -4,7 +4,7 @@ import 'src/app/style.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import sendokgarpu from 'public/sendok-garpu.png'
-import footer from 'bismit/public/footer.png'
+import footer from 'public/footer.png'
 
 export default function explore() {
   return (
@@ -15,10 +15,10 @@ export default function explore() {
           <p className='review-kantin self-center'>Review Kantin</p>
         </div>
         <div className='flex flex-row'>
-          <Link href='/find-on-map'><button className='nav-button'>Find on Map</button></Link>
-          <Link href='/reviews'><button className='nav-button'>Reviews</button></Link>
-          <Link href='/explore'><button className='nav-button'>Explore</button></Link>
-          <Link href='/meet-the-team'><button className='nav-button'>Meet the Team</button></Link>
+          <Link href=''><button className='nav-button'>Find on Map</button></Link>
+          <Link href=''><button className='nav-button'>Reviews</button></Link>
+          <Link href='\explore'><button className='nav-button'>Explore</button></Link>
+          <Link href=''><button className='nav-button'>Meet the Team</button></Link>
         </div>
       </nav>
 
@@ -27,31 +27,31 @@ export default function explore() {
       </div>
       
       <div className='grids'>
-        <Link className='bubble flex items-center justify-center' href={'\explore\\noodles'}>
+        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
           <button>Chicken</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'\explore\\noodles'}>
+        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
           <button>Seafood</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'\explore\\noodles'}>
+        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
           <button>Beef</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'\explore\\noodles'}>
+        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
           <button>Noodles</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'\explore\\noodles'}>
+        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
           <button>Bread/Cake</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'\explore\\noodles'}>
+        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
           <button>Desserts</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'\explore\\noodles'}>
+        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
           <button>Veggies</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'\explore\\noodles'}>
+        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
           <button>Beverages</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'\explore\\noodles'}>
+        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
           <button>Coffee</button>
         </Link>
       </div>

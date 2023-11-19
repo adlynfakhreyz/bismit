@@ -16,10 +16,10 @@ export default function noodles() {
           <p className='review-kantin self-center'>Review Kantin</p>
         </div>
         <div className='flex flex-row'>
-          <Link href='/find-on-map'><button className='nav-button'>Find on Map</button></Link>
-          <Link href='/reviews'><button className='nav-button'>Reviews</button></Link>
-          <Link href='/explore'><button className='nav-button'>Explore</button></Link>
-          <Link href='/meet-the-team'><button className='nav-button'>Meet the Team</button></Link>
+          <Link href=''><button className='nav-button'>Find on Map</button></Link>
+          <Link href=''><button className='nav-button'>Reviews</button></Link>
+          <Link href='\explore'><button className='nav-button'>Explore</button></Link>
+          <Link href=''><button className='nav-button'>Meet the Team</button></Link>
         </div>
       </nav>
 			<div className='review-container'>
