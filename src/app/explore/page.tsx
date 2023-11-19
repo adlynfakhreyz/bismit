@@ -9,9 +9,6 @@ import footer from 'public/footer.png'
 export default function explore() {
   return (
     <main>
-      <div>
-        <Head>Bismit</Head>
-      </div>
       <nav className='shadow-lg navbar px-16'>
         <div className='flex flex-row'>
           <Image src={sendokgarpu} alt='sendokgarpu'/>
