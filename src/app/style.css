@@ -34,8 +34,24 @@
   padding-bottom: 2vw;
 }
 
+.color1 {
+  background-color: rgba(255, 115, 93, 1);
+}
+
+.color2 {
+  background-color: rgba(229, 56, 29, 1);
+}
+
+.color3 {
+  background: rgba(248, 85, 59, 1);
+}
+
+.color3 {
+  background-color: rgba(248, 85, 59, 1);
+}
+
+
 .bubble {
-  background-color: #E5381D;
   color: white;
   font-size: 2.2vw;
   font-weight: 700;
@@ -58,20 +74,21 @@
 
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
   
-  transition: background-color 0.4s, transform 0.3s, color 0.2s, border 0.4s;
+  transition: background-color 0.4s, transform 0.4s, color 0.3s, border 0.4s;
 }
 
 .bubble:hover{
-  border-color: #E5381D;
-  transform: scale(1.1); /* Increase size on hover */
+  border-width: 0.12vw;
+  border-color: rgba(229, 56, 29, 1);
+  transform: scale(1.07); /* Increase size on hover */
   background-color: rgba(255, 255, 255, 0.8);
   color: #E5381D;
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
 .bubble:active {
-  transform: scale(1.1); /* Maintain size on click */
-  color: rgba(255, 255, 255, 0.6); /* Darker text on click */
+  transform: scale(1.09); /* Maintain size on click */
+  color: rgba(229, 56, 29, 0.5); /* Darker text on click */
 }
 
 .bubble-review {
@@ -100,7 +117,6 @@
   padding-top: 4.4vw;
   padding-bottom: 4.4vw;
   height: 25vw;
-  background-color: #E5381D;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);;
   transition: transform 0.3s, box-shadow 0.3s;
 }

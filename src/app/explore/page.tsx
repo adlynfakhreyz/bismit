@@ -27,31 +27,31 @@ export default function explore() {
       </div>
       
       <div className='grids'>
-        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
+        <Link className='bubble flex items-center justify-center color1 ;' href={'/explore/noodles'}>
           <button>Chicken</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
+        <Link className='bubble flex items-center justify-center color2' href={'/explore/noodles'}>
           <button>Seafood</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
+        <Link className='bubble flex items-center justify-center color3' href={'/explore/noodles'}>
           <button>Beef</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
+        <Link className='bubble flex items-center justify-center color2' href={'/explore/noodles'}>
           <button>Noodles</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
+        <Link className='bubble flex items-center justify-center color3' href={'/explore/noodles'}>
           <button>Bread/Cake</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
+        <Link className='bubble flex items-center justify-center color1' href={'/explore/noodles'}>
           <button>Desserts</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
+        <Link className='bubble flex items-center justify-center color3' href={'/explore/noodles'}>
           <button>Veggies</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
+        <Link className='bubble flex items-center justify-center color2' href={'/explore/noodles'}>
           <button>Beverages</button>
         </Link>
-        <Link className='bubble flex items-center justify-center' href={'/explore/noodles'}>
+        <Link className='bubble flex items-center justify-center color2' href={'/explore/noodles'}>
           <button>Coffee</button>
         </Link>
       </div>

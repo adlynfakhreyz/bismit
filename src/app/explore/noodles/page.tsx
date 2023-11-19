@@ -24,7 +24,7 @@ export default function noodles() {
       </nav>
 			<div className='review-container'>
 				<div className='bubble-review flex justify-center'>
-					<div className='bubble pointer-events-none'>
+					<div className='bubble pointer-events-none color2'>
 						<p className='pad'>Noodles</p>
 					</div>
 				</div>
@@ -36,7 +36,7 @@ export default function noodles() {
 				</div>
 
 				<div className='kantin-grid'>
-					<div className='kantin-container'>
+					<div className='color1 kantin-container'>
 						<div>
 							<div className='flex justify-items-center'>
 								<Image className='location-logo' src={location} alt='location'/>
@@ -48,7 +48,7 @@ export default function noodles() {
 						</div>
 					</div>
 
-					<div className='kantin-container'>
+					<div className='kantin-container color2'>
 						<div>
 							<div className='flex justify-items-center'>
 								<Image className='location-logo' src={location} alt='location'/>
@@ -61,7 +61,7 @@ export default function noodles() {
 						</div>
 					</div>
 
-					<div className='kantin-container'>
+					<div className='kantin-container color3'>
 						<div>
 							<div className='flex justify-items-center'>
 								<Image className='location-logo' src={location} alt='location'/>
