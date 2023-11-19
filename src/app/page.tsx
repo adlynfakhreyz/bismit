@@ -20,7 +20,6 @@ export default function Home() {
           <Link href=''><button className='nav-button'>Meet the Team</button></Link>
         </div>
       </nav>
-      <div className='fixed bottom-0'>
         <div className='footer-container'>
           <Image src={footer} alt='footer' className='footer-image'/>
           <div className='footer-content'>
@@ -38,8 +37,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
-        
     </main>
   )
 }
