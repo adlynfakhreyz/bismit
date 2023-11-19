@@ -1,149 +1,149 @@
-  
-  .content {
-    padding-top: 140px;
-    margin-bottom: 60px;
-  }
-  
-  .explore-text{
-    margin-left: 5.5vw;
-    font-size: 64px;
-    font-weight: 700;
-    line-height: 6.6vw;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-  
-  .grids {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    row-gap: 3.3vw;
-    column-gap: 1.6vw;
-    margin-top: 0;
-    padding-left: 5.5vw;
-    padding-right: 5.5vw;
-    height: 40vw;
-    justify-content: center;
-  }
-  
-  .pad {
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-  }
-  
-  .bubble {
-    background-color: #E5381D;
-    color: white;
-    font-size: 2.2vw;
-    font-weight: 700;
-    line-height: 1.7vw;
-    letter-spacing: 0em;
-    justify-items: center;
-  
-    padding-left: 2vw;
-    padding-right: 2vw;
-    padding-top: 2vw;
-    padding-bottom: 2vw;
-    /* margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px; */
-  
-    border: 0.138vw solid transparent; /* Border color */
-    border-radius: 2.78vw; /* Border radius for rounded corners */
-    outline: none; /* Remove the default outline */
-  
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
-    
-    transition: background-color 0.4s, transform 0.3s, color 0.2s, border 0.4s;
-  }
-  
-  .bubble:hover{
-    border-color: #E5381D;
-    transform: scale(1.1); /* Increase size on hover */
-    background-color: rgba(255, 255, 255, 0.8);
-    color: #E5381D;
-    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-  }
-  
-  .bubble:active {
-    transform: scale(1.1); /* Maintain size on click */
-    color: rgba(255, 255, 255, 0.6); /* Darker text on click */
-  }
-  
-  .bubble-review {
-    padding-top: 140px;
-    margin-bottom: 4.1vw;
-  }
-  
-  .kantin-with {
-    font-size: 2.8vw;
-    font-weight: 600;
-    line-height: 2.8vw;
-    letter-spacing: 0em;
-    text-align: left;
-    margin-bottom: 1.38vw;
-  }
-  
-  .kantin-grid {
-    display: grid;
-    grid-template-rows: repeat(3, 1fr);
-    row-gap: 1.38vw;
-  }
-  
-  .kantin-container {
-    padding-left: 5.5vw;
-    padding-right: 5.5vw;
-    padding-top: 4.4vw;
-    padding-bottom: 4.4vw;
-    height: 25vw;
-    background-color: #E5381D;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);;
-    transition: transform 0.3s, box-shadow 0.3s;
-  }
-  
-  .kantin-container:hover {
-    transform: scale(1.12);
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
-  }
-  
-  .location-logo {
-    width: 2.2vw;
-    height: 2.7vw;
-  }
-  
-  .nama-kantin {
-    color: #ffffff;
-    font-size: 1.6vw;
-    font-weight: 600;
-    line-height: 1.6vw;
-    letter-spacing: 0em;
-    text-align: left;
-    padding-left: 0.84vw;
-    align-self: center;
-  }
-  
-  .nama-makanan {
-    color: white;
-    font-size: 3.3vw;
-    font-weight: 600;
-    line-height: 6.6vw;
-    letter-spacing: 0em;
-    text-align: left;
-  }
-  
-  .desc {
-    color: white;
-  font-size: 1.1vw;
-  font-weight: 600;
-  line-height: 2.2vw;
+
+.content {
+  padding-top: 140px;
+  margin-bottom: 60px;
+}
+
+.explore-text{
+  margin-left: 5.5vw;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 6.6vw;
   letter-spacing: 0em;
   text-align: left;
-  }
+}
+
+.grids {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 3.3vw;
+  column-gap: 1.6vw;
+  margin-top: 0;
+  padding-left: 5.5vw;
+  padding-right: 5.5vw;
+  height: 40vw;
+  justify-content: center;
+}
+
+.pad {
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+}
+
+.bubble {
+  background-color: #E5381D;
+  color: white;
+  font-size: 2.2vw;
+  font-weight: 700;
+  line-height: 1.7vw;
+  letter-spacing: 0em;
+  justify-items: center;
+
+  padding-left: 2vw;
+  padding-right: 2vw;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
+  /* margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px; */
+
+  border: 0.138vw solid transparent; /* Border color */
+  border-radius: 2.78vw; /* Border radius for rounded corners */
+  outline: none; /* Remove the default outline */
+
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0.5);
   
-  .review-container {
-    padding-left: 5.5vw;
-    padding-right: 5.5vw;
-  }
+  transition: background-color 0.4s, transform 0.3s, color 0.2s, border 0.4s;
+}
+
+.bubble:hover{
+  border-color: #E5381D;
+  transform: scale(1.1); /* Increase size on hover */
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #E5381D;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+}
+
+.bubble:active {
+  transform: scale(1.1); /* Maintain size on click */
+  color: rgba(255, 255, 255, 0.6); /* Darker text on click */
+}
+
+.bubble-review {
+  padding-top: 140px;
+  margin-bottom: 4.1vw;
+}
+
+.kantin-with {
+  font-size: 2.8vw;
+  font-weight: 600;
+  line-height: 2.8vw;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 1.38vw;
+}
+
+.kantin-grid {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 1.38vw;
+}
+
+.kantin-container {
+  padding-left: 5.5vw;
+  padding-right: 5.5vw;
+  padding-top: 4.4vw;
+  padding-bottom: 4.4vw;
+  height: 25vw;
+  background-color: #E5381D;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.kantin-container:hover {
+  transform: scale(1.12);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.location-logo {
+  width: 2.2vw;
+  height: 2.7vw;
+}
+
+.nama-kantin {
+  color: #ffffff;
+  font-size: 1.6vw;
+  font-weight: 600;
+  line-height: 1.6vw;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-left: 0.84vw;
+  align-self: center;
+}
+
+.nama-makanan {
+  color: white;
+  font-size: 3.3vw;
+  font-weight: 600;
+  line-height: 6.6vw;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.desc {
+  color: white;
+font-size: 1.1vw;
+font-weight: 600;
+line-height: 2.2vw;
+letter-spacing: 0em;
+text-align: left;
+}
+
+.review-container {
+  padding-left: 5.5vw;
+  padding-right: 5.5vw;
+}
