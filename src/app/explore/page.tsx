@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import 'src\\app\\explore\\style.css';
+import 'src\\app\\globals.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import sendokgarpu from 'public\\sendok-garpu.png'
@@ -26,7 +27,7 @@ export default function explore() {
       </div>
       
       <div className='grids'>
-        <Link className='bubble flex items-center justify-center' href={'\explore\\chicken'}>
+        <Link className='bubble flex items-center justify-center' href={'\explore\\noodles'}>
           <button>Chicken</button>
         </Link>
         <Link className='bubble flex items-center justify-center' href={'\explore\\noodles'}>
