@@ -28,10 +28,10 @@ export default function reviews() {
         <div className='flex flex-row justify-between'>
           <p className='explore-text'>Dallas - FMIPA</p>
           <div className='flex'>
-            <Link className='arrow flex items-center' href=''>
+            <Link className='arrow flex items-center' href='\reviews'>
               <Image src={right} alt='right'/>
             </Link>
-            <Link className='arrow flex items-center flex-start' href=''>
+            <Link className='arrow flex items-center flex-start' href='\reviews'>
               <Image src={left} alt='left'/>
             </Link>
           </div>
@@ -43,12 +43,20 @@ export default function reviews() {
         </div>
 
         <div>
-          <p className='reviews-title'>Most Mentioned Foods</p>
-          
+          <p className='reviews-title'>Most Mentioned Foods:</p>
+          <div className='most-mentioned-foods'>
+            <button className='most-mentioned-food'>Rice Bowl</button>
+            <button className='most-mentioned-food'>Rice Bowl</button>
+            <button className='most-mentioned-food'>Rice Bowl</button>
+          </div>
         </div>
 
         <div className='reviews-title'>Reviews</div>
 
+        <div className='reviews-desc'>
+          <div className='reviews-bubble'><p>akjhfakjhesaz</p></div>
+          <div className='reviews-bubble'>a</div>
+        </div>
       </div>
       
 

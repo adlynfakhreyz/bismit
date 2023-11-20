@@ -74,7 +74,7 @@ export default function meettheteam() {
 
               <div>
                 <p className='profile'>
-                  <span className='name'>Arya Raditya Kusuma</span> <br />
+                  <span className='name'>Michelin Wijaya Limbergh</span> <br />
                   instagram.com/michelinewl<br />
                   www.linkedin.com/in/micheline-wl
                 </p>

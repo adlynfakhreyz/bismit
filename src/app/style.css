@@ -218,6 +218,36 @@ text-align: left;
   grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
 }
 
+.reviews-bubble {
+  background-color: rgba(255, 115, 93, 1);
+  padding-left: 1.73vw;
+  padding-right: 2.22vw;
+  padding-top: 1.73vw;
+  padding-bottom: 2.22vw;
+  border-radius: 1.389vw
+}
+
+.most-mentioned-foods {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 3.472vw;
+  margin-bottom: 7vw;
+}
+
+.most-mentioned-food {
+  height: 5.55vw;
+  background-color: rgba(255, 115, 93, 1);
+  padding: 1.944vw, 6.08vw, 1.944vw, 6.08vw;
+  border-radius: 1.389vw;
+
+  color: white;
+  font-size: 1.67vw;
+  font-weight: 500;
+  line-height: 1.67vw;
+  letter-spacing: 0em;
+  text-align: left;
+  text-align: center;
+}
 
 
 
