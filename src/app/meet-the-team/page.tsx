@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import 'src/app/globals.css'; 
+import 'src/app/style.css';
 import Head from 'next/head';
 import Image from 'next/image';
 import sendokgarpu from 'public/sendok-garpu.png'
@@ -22,48 +23,65 @@ export default function meettheteam() {
       </nav>
       
       <div className="min-h-screen flex flex-col">
-        <p className = 'text-6xl ml-10 flex font-bold text-black py-16'>Meet The Team</p>
-        <div className = 'columns-2 text-center py-0 flex'>
-          <div className = 'flex h-10 w-60 rounded-2xl ml-10 bg-red-400'>
-            <p className = 'ml-9 mt-2'>UI/UX Designer</p>
-          </div>
-          <div className = 'flex h-10 rounded-2xl mr-10 mx-10 w-full bg-red-400'>
-            <p className = 'mt-2 ml-8'>Software Engineer</p>
+        <div className='content'>
+          <p className='explore-text'>Meet the Team</p>
+
+          <div className='pps-ui'>
+            <button className='role pointer-events-none'>UI/UX Designer</button>
+            <button className='role pointer-events-none'>Software Engineer</button>
+
+            <img className = 'pp' src= 'https://i.ibb.co/zH4H0xv/IMG-0007-2-1.png'></img> 
+            <div className='pps-se'>
+              <img className = 'pp' src= 'https://i.ibb.co/D4MMDTD/Frame-1068.png'></img>
+              <img className = 'pp' src= 'https://i.ibb.co/VjZCM0B/Frame-1069.png'></img>
+              <img className = 'pp' src= 'https://i.ibb.co/QJxcp7w/Frame-1070.png'></img>
+              <img className = 'pp' src= 'https://i.ibb.co/tQFxjx8/Frame-1071.png'></img>
+            </div>  
+
+            <div>
+              <p className='profile'>
+                <span className='name'>Arya Raditya Kusuma</span> <br />
+                instagram.com/aryaradityak<br />
+                www.linkedin.com/in/arya-raditya-kusuma
+              </p>
+            </div>
+
+            <div className='pps-se'>
+
+              <div>
+                <p className='profile'>
+                  <span className='name'>Alyssa Layla Sasti</span> <br />
+                  instagram.com/alyssa.layla<br />
+                  www.linkedin.com/in/alyssalaysast
+                </p>
+              </div>
+
+              <div>
+                <p className='profile'>
+                  <span className='name'>Andi Muhammad Adlyn Fakhreyza Khairi Putra</span> <br />
+                  instagram.com/adlynfakhreyz<br />
+                  www.linkedin.com/in/adlynfakhreyza
+                </p>
+              </div>
+
+              <div>
+                <p className='profile'>
+                  <span className='name'>Anthony Edbert Feriyanto</span> <br />
+                  instagram.com/anth.ef<br />
+                  www.linkedin.com/in/anthony-edbert-feriyanto
+                </p>
+              </div>
+
+              <div>
+                <p className='profile'>
+                  <span className='name'>Arya Raditya Kusuma</span> <br />
+                  instagram.com/michelinewl<br />
+                  www.linkedin.com/in/micheline-wl
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-        <div className = 'flex columns-5 items-center text-center text-black py-10'>
-          <div> 
-            <img className = 'px-5 ml-2' src= 'https://i.ibb.co/zH4H0xv/IMG-0007-2-1.png'></img>  
-            <p className = 'py-4'>Arya Raditya Kusuma</p>
-            <p className = 'text-sm'>instagram.com/aryaradityak</p>
-            <p className = 'text-sm'>www.linkedin.com/in/arya-raditya-kusuma</p>
-          </div>
-          <div>
-            <img className = 'px-5 ml-5' src= 'https://i.ibb.co/D4MMDTD/Frame-1068.png'></img>  
-            <p className = 'py-4'>Alyssa Layla Sasti</p>
-            <p className = 'text-sm'>instagram.com/alyssa.layla</p>
-            <p className = 'text-sm'>www.linkedin.com/in/</p>
-          </div>
-          <div> 
-            <img className = 'px-5 ml-5' src= 'https://i.ibb.co/VjZCM0B/Frame-1069.png'></img>
-            <p className = 'pt-4'>Andi Muhammad Adlyn</p>
-            <p className = 'pb-4'>Fakhreyza Khairi Putra</p>
-            <p className = 'text-sm'>instagram.com/adlynfakhreyz</p>
-            <p className = 'text-sm'>www.linkedin.com/in/adlynfakhreyza</p>
-          </div>
-          <div> 
-            <img className = 'px-5 ml-5' src= 'https://i.ibb.co/QJxcp7w/Frame-1070.png'></img>
-            <p className = 'py-4'>Anthony Edbert Feriyanto</p>
-            <p className = 'text-sm'>instagram.com/anth.ef</p>
-            <p className = 'text-sm'>www.linkedin.com/in/anthony-edbert-feriyanto</p>
-
-          </div>
-          <div> 
-            <img className = 'px-5 ml-5' src= 'https://i.ibb.co/tQFxjx8/Frame-1071.png'></img>
-            <p className = 'py-4'>Micheline Wijaya Limbergh</p>
-            <p>instagram.com/michelinewl</p>
-            <p>https://www.linkedin.com/in/micheline-wl </p>
-          </div>
         </div>
         {/* Your main content */}
         <div className="flex-grow">
@@ -92,7 +110,6 @@ export default function meettheteam() {
             </div>
           </div>
         </div>
-      </div>
     </main>
   )
 }
