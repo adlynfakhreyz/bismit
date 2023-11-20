@@ -1,12 +1,14 @@
 import Link from 'next/link';
-import 'src/app/globals.css';
-import 'src/app/style.css';
+import 'src/app/globals.css'; 
+import 'src/app/style.css'
 import Head from 'next/head';
 import Image from 'next/image';
 import sendokgarpu from 'public/sendok-garpu.png'
 import footer from 'public/footer.png'
+import right from 'public/right.png'
+import left from 'public/left.png'
 
-export default function explore() {
+export default function reviews() {
   return (
     <main>
       <nav className='shadow-lg navbar'>
@@ -22,41 +24,39 @@ export default function explore() {
         </div>
       </nav>
 
+      <div className='content'>
+        <div className='flex flex-row justify-between'>
+          <p className='explore-text'>Dallas - FMIPA</p>
+          <div className='flex'>
+            <Link className='arrow flex items-center' href=''>
+              <Image src={right} alt='right'/>
+            </Link>
+            <Link className='arrow flex items-center flex-start' href=''>
+              <Image src={left} alt='left'/>
+            </Link>
+          </div>
+        </div>
+        <button className='backtomap backtomap-text'>Redirect to Maps</button>
+
+        <div className='sliding-image'>
+          SLIDING IMAGE
+        </div>
+
+        <div>
+          <p className='reviews-title'>Most Mentioned Foods</p>
+          
+        </div>
+
+        <div className='reviews-title'>Reviews</div>
+
+      </div>
+      
+
+      
+      
       <div className="min-h-screen flex flex-col">
         {/* Your main content */}
-        <div className='content'>
-          <p className='explore-text'>Explore</p>
-        </div>
-      
-        <div className='grids'>
-          <Link className='bubble flex items-center justify-center color1 ;' href={'/explore/noodles'}>
-            <button>Chicken</button>
-          </Link>
-          <Link className='bubble flex items-center justify-center color2' href={'/explore/noodles'}>
-            <button>Seafood</button>
-          </Link>
-          <Link className='bubble flex items-center justify-center color3' href={'/explore/noodles'}>
-            <button>Beef</button>
-          </Link>
-          <Link className='bubble flex items-center justify-center color2' href={'/explore/noodles'}>
-            <button>Noodles</button>
-          </Link>
-          <Link className='bubble flex items-center justify-center color3' href={'/explore/noodles'}>
-            <button>Bread/Cake</button>
-          </Link>
-          <Link className='bubble flex items-center justify-center color1' href={'/explore/noodles'}>
-            <button>Desserts</button>
-          </Link>
-          <Link className='bubble flex items-center justify-center color3' href={'/explore/noodles'}>
-            <button>Veggies</button>
-          </Link>
-          <Link className='bubble flex items-center justify-center color2' href={'/explore/noodles'}>
-            <button>Beverages</button>
-          </Link>
-          <Link className='bubble flex items-center justify-center color2' href={'/explore/noodles'}>
-            <button>Coffee</button>
-          </Link>
-        </div>
+
         <div className="flex-grow">
           {/* Your existing content goes here */}
         </div>
