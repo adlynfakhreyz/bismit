@@ -7,8 +7,6 @@ nav {
   height: 80px;
   padding-left: 61px;
   padding-right: 61px;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
 
 main {
@@ -49,7 +47,7 @@ body {
 @media (min-width: 768px) {
   button {
     font-size: 1.5rem; /* Adjust the font size for medium screens */
-  }
+  } 
 }
 
 @media (min-width: 1024px) {
@@ -64,23 +62,24 @@ body {
   height: 80px;
   position: fixed;
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
 
 .nav-button {
   color: white;
-  font-size: 20px;
+  font-size: 1.389vw;
   font-weight: 600;
-  line-height: 24px;
+  line-height: 1.67vw;
   letter-spacing: 0em;
   text-align: center;
-  margin-right: 24px;
-  margin-left: 24px;
+  margin-right: 1.67vw;
+  margin-left: 1.67vw;
   min-width: max-content;
   background-color: transparent;
   color: #ffffff;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 0.1389vw rgba(0, 0, 0, 0.2);
   transition: transform 0.2s;
 }
 
@@ -95,15 +94,62 @@ body {
 
 .review-kantin {
   color: #ffffff;
-  font-size: 32px;
+  font-size: 2.22vw;
   font-weight: 700;
-  line-height: 56px;
+  line-height: 3.89vw;
   letter-spacing: 0em;
   text-align: left;
-  padding-left: 23px;
+  padding-left: 1.59vw;
   min-width: max-content;
-  margin-right: 96px;
-  text-shadow: 0 0 1px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 0.6vw rgba(0, 0, 0, 0.3);
+}
+
+.sendok-garpu {
+  width: 3.88vw;
+  min-width: 40px;
+}
+
+@media (max-width:1080px){
+  .nav-button {
+    font-size: 13px;
+  }
+  .review-kantin {
+    font-size: 20.8px;
+  }
+  .sendok-garpu {
+    width: 34;
+  }
+}
+
+@media (max-width: 662px) {
+  nav {
+    padding-left: 15px;
+  }
+  .navbar {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+  }
+  .nav-button {
+    font-size: 13px;
+  }
+  .review-kantin {
+    font-size: 20.8px;
+  }
+  .sendok-garpu {
+    width: 34;
+  }
+}
+
+@media (max-width: 320px) {
+  .nav-button {
+    font-size: 12px;
+  }
+  .review-kantin {
+    font-size: 16px;
+  }
+  .sendok-garpu {
+    width: 28;
+  }
 }
 
 .review-text {
@@ -114,7 +160,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
   align-self: flex-end;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 0.138vw rgba(0, 0, 0, 0.8);
 }
 
 .kantin-text{
@@ -125,7 +171,7 @@ body {
   letter-spacing: 0em;
   text-align: left;
   align-self: flex-start;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.8);
+  text-shadow: 0 0 0.138vw rgba(0, 0, 0, 0.8);
 }
 
 .footer-container {

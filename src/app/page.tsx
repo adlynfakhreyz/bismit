@@ -8,16 +8,16 @@ import footer from 'public/footer.png'
 export default function Home() {
   return (
     <main>
-      <nav className='shadow-lg navbar px-16'>
-        <div className='flex flex-row'>
-          <Image src={sendokgarpu} alt='sendokgarpu'/>
-          <p className='review-kantin self-center'>Review Kantin</p>
+      <nav className='shadow-lg navbar'>
+        <div className='flex flex-row items-center'>
+          <Image className='sendok-garpu' src={sendokgarpu} alt='sendokgarpu'/>
+          <p className='review-kantin'>Review Kantin</p>
         </div>
-        <div className='flex flex-row'>
-          <Link href=''><button className='nav-button'>Find on Map</button></Link>
-          <Link href=''><button className='nav-button'>Reviews</button></Link>
-          <Link href='\explore'><button className='nav-button'>Explore</button></Link>
-          <Link href=''><button className='nav-button'>Meet the Team</button></Link>
+        <div className='flex flex-row items-center'>
+          <Link className='nav-button' href=''>Find on Map</Link>          
+          <Link className='nav-button' href=''>Reviews</Link>
+          <Link className='nav-button' href='\explore'>Explore</Link>
+          <Link className='nav-button' href=''>Meet the Team</Link>
         </div>
       </nav>
       
