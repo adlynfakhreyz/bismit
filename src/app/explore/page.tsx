@@ -22,7 +22,7 @@ export default function explore() {
         </div>
       </nav>
 
-      <div className='content mb-8'>
+      <div className='content'>
         <p className='explore-text'>Explore</p>
       </div>
       
