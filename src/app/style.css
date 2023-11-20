@@ -168,6 +168,16 @@ text-align: left;
   top: 16.04vw;
   left: 6.67vw;
   border-radius: 69.375vw;
+  transition: 0.3s;
+}
+
+.backtomap:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0.7vw rgba(0, 0, 0, 0.2);
+}
+
+.backtomap:active {
+  opacity: 0.7;
 }
 
 .backtomap-text {
@@ -186,12 +196,12 @@ text-align: left;
   line-height: 1.67vw;
   background-color: transparent;
   text-shadow: 0 0 0.1389vw rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s;
+  transition: transform 0.3s;
 }
 
 .arrow:hover{
-  transform: scale(1.1); /* Adjust the scale factor */
-  transition: transform 0.3s ease-in-out;
+  transform: scale(1.095); /* Adjust the scale factor */
+  transition: transform 0.3s;
 }
 
 .arrow:active {
@@ -201,30 +211,12 @@ text-align: left;
 .sliding-image {
   display: flex;
   justify-content: center;
-  margin-top: 6.25vw;
-  margin-bottom: 6.25vw;
+  margin-top: 8.5vw;
+  margin-bottom: 8.5vw;
 }
 
-.reviews-title {
-  font-size: 2.22vw;
-  font-weight: 700;
-  line-height: 6.67vw;
-  letter-spacing: 0em;
-  text-align: left;
-}
-
-.reviews-grids {
-  display: grid;
-  grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
-}
-
-.reviews-bubble {
-  background-color: rgba(255, 115, 93, 1);
-  padding-left: 1.73vw;
-  padding-right: 2.22vw;
-  padding-top: 1.73vw;
-  padding-bottom: 2.22vw;
-  border-radius: 1.389vw
+.gambar {
+  width: 56.2vw;
 }
 
 .most-mentioned-foods {
@@ -247,8 +239,89 @@ text-align: left;
   letter-spacing: 0em;
   text-align: left;
   text-align: center;
+  transition: 0.3s;
+  cursor:unset;
 }
 
+.most-mentioned-food:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 0.7vw rgba(0, 0, 0, 0.2);
+}
+
+.reviews-title {
+  font-size: 2.22vw;
+  font-weight: 700;
+  line-height: 6.67vw;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.reviews-grids {
+  display: grid;
+  grid-template-rows: repeat(auto-fill, minmax(0px, 1fr));
+  row-gap: 1.95vw;
+}
+
+.reviews-bubble {
+  background-color: rgba(255, 115, 93, 1);
+  padding-top: 1.73vw;
+  padding-bottom: 1.72vw;
+  padding-right: 2.22vw;
+  padding-left: 2.22vw;
+  border-radius: 1.389vw
+}
+
+.reviews-desc {
+  color: white;
+  font-size: 1.389vw;
+  font-weight: 600;
+  line-height: 2.22vw;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.see-more {
+  color: black;
+  font-size: 1.67vw;
+  font-weight: 500;
+  line-height: 6.67vw;
+  letter-spacing: 0em;
+  text-align: right;
+  align-self: flex-end;
+  transition: 0.2s;
+}
+
+.see-more:hover {
+  transform: scale(1.07);
+}
+
+.search-container {
+  background-color: rgba(204, 211, 219, 1);
+  display: flex;
+  height: 5.55vw;
+  padding-left: 4.167vw;
+  padding-right: 4.167vw;
+  padding-top: 1.67vw;
+  padding-bottom: 1.67vw;
+  border-radius: 70vw;
+  line-height: 2.22vw;
+  align-self: center;
+
+  color: rgba(125, 135, 146, 1)  ;
+  font-size: 1.67vw;
+  font-weight: 500;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.kantin-title {
+  color: black;
+  font-size: 4.44vw;
+  font-weight: 700;
+  line-height: 6.67vw;
+  letter-spacing: 0em;
+  text-align: left;
+}
 
 
 
