@@ -1,11 +1,11 @@
 import Link from 'next/link';
-import 'src/app/globals.css'; 
-import Head from 'next/head';
+import 'src/app/style.css';
+import 'src/app/globals.css'
 import Image from 'next/image';
 import sendokgarpu from 'public/sendok-garpu.png'
 import footer from 'public/footer.png'
 
-export default function Home() {
+export default function home() {
   return (
     <main>
       <nav className='shadow-lg navbar'>
@@ -14,7 +14,7 @@ export default function Home() {
           <p className='review-kantin'>Review Kantin</p>
         </div>
         <div className='flex flex-row items-center'>
-          <Link className='nav-button' href='\find-on-map'>Find on Map</Link>          
+          <Link className='nav-button' href='\'>Find on Map</Link>          
           <Link className='nav-button' href='\reviews'>Reviews</Link>
           <Link className='nav-button' href='\explore'>Explore</Link>
           <Link className='nav-button' href='\meet-the-team'>Meet the Team</Link>
@@ -22,50 +22,58 @@ export default function Home() {
       </nav>
       
       <div className="min-h-screen flex flex-col">
-        <p className = 'text-6xl ml-10 flex font-bold text-black py-16'>Meet The Team</p>
-        <div className = 'columns-2 text-center py-0 flex'>
-          <div className = 'flex h-10 w-60 rounded-2xl ml-10 bg-red-400'>
-            <p className = 'ml-9 mt-2'>UI/UX Designer</p>
-          </div>
-          <div className = 'flex h-10 rounded-2xl mr-10 mx-10 w-full bg-red-400'>
-            <p className = 'mt-2 ml-8'>Software Engineer</p>
-          </div>
-        </div>
-        <div className = 'flex columns-5 items-center text-center text-black py-10'>
-          <div> 
-            <img className = 'px-5 ml-2' src= 'https://i.ibb.co/zH4H0xv/IMG-0007-2-1.png'></img>  
-            <p className = 'py-4'>Arya Raditya Kusuma</p>
-            <p className = 'text-sm'>instagram.com/aryaradityak</p>
-            <p className = 'text-sm'>www.linkedin.com/in/arya-raditya-kusuma</p>
-          </div>
-          <div>
-            <img className = 'px-5 ml-5' src= 'https://i.ibb.co/D4MMDTD/Frame-1068.png'></img>  
-            <p className = 'py-4'>Alyssa Layla Sasti</p>
-            <p className = 'text-sm'>instagram.com/alyssa.layla</p>
-            <p className = 'text-sm'>www.linkedin.com/in/</p>
-          </div>
-          <div> 
-            <img className = 'px-5 ml-5' src= 'https://i.ibb.co/VjZCM0B/Frame-1069.png'></img>
-            <p className = 'pt-4'>Andi Muhammad Adlyn</p>
-            <p className = 'pb-4'>Fakhreyza Khairi Putra</p>
-            <p className = 'text-sm'>instagram.com/adlynfakhreyz</p>
-            <p className = 'text-sm'>www.linkedin.com/in/adlynfakhreyza</p>
-          </div>
-          <div> 
-            <img className = 'px-5 ml-5' src= 'https://i.ibb.co/QJxcp7w/Frame-1070.png'></img>
-            <p className = 'py-4'>Anthony Edbert Feriyanto</p>
-            <p className = 'text-sm'>instagram.com/anth.ef</p>
-            <p className = 'text-sm'>www.linkedin.com/in/anthony-edbert-feriyanto</p>
-
-          </div>
-          <div> 
-            <img className = 'px-5 ml-5' src= 'https://i.ibb.co/tQFxjx8/Frame-1071.png'></img>
-            <p className = 'py-4'>Micheline Wijaya Limbergh</p>
-            <p>instagram.com/michelinewl</p>
-            <p>https://www.linkedin.com/in/micheline-wl </p>
+        <div className= 'h-full w-full'>
+          <div className='relative'>
+            <img className = 'h-full w-full' src = "https://i.ibb.co/LC9qDcF/snazzy-image-3-1.png"></img>
+            <div className='absolute'style={{ bottom: '160px', left: '600px'}}>
+              <img
+                className='h-24 w-20 transition-transform transform hover:scale-125 hover:opacity-90'
+                src='https://i.ibb.co/BCxWDL3/Frame-1032.png' alt="Overlay Image Dallas"style={{ zIndex: 10 }}/>
+            </div>
+            <div className = 'absolute'style={{ top: '425px', left: '500px'}}>
+              <img
+                className= 'h-24 w-20 transition-transform transform hover:scale-125 hover:opacity-90'
+                src='https://i.ibb.co/Q8frhhH/Frame-1031.png'alt="Overlay Image Kantek" style={{ zIndex: 10 }}/>
+            </div> 
+            <div className = 'absolute'style={{ top: '300px', left: '600px'}}>
+              <img
+                className = 'h-24 w-20 transition-transform transform hover:scale-125 hover:opacity-90' 
+                src='https://i.ibb.co/YLQ9DL0/Frame-1034.png' alt="Overlay Image Kafe" style={{ zIndex: 10 }}/>
+            </div>
+            <div className = 'absolute'style={{ bottom: '200px', left: '330px'}}>
+              <img 
+              className = 'h-24 w-20 transition-transform transform hover:scale-125 hover:opacity-90'
+              src='https://i.ibb.co/4wqxZkx/Frame-1035.png' alt="Overlay Image Kanvok" style={{ zIndex: 10 }}/>
+            </div> 
+            <div className = 'absolute'style={{ top: '480px', left: '700px'}}>
+              <img 
+              className = 'h-24 w-20 transition-transform transform hover:scale-125 hover:opacity-90'
+              src='https://i.ibb.co/G3VGWPP/Frame-1036.png' alt="Overlay Image Balgebun" style={{ zIndex: 10 }}/>
+            </div> 
+            <div className = 'absolute'style={{ top: '470px', right: '520px'}}>
+              <img 
+              className ='h-24 w-20 transition-transform transform hover:scale-125 hover:opacity-90'
+              src='https://i.ibb.co/RzpNbVX/Frame-1038.png' alt="Overlay Image Kanmer" style={{ zIndex: 10 }}/>
+            </div> 
+            <div className = 'absolute'style={{ top: '460px', left: '625px'}}>
+              <img 
+              className = 'h-24 w-20 transition-transform transform hover:scale-125 hover:opacity-90' 
+              src='https://i.ibb.co/pjd7n3Z/Frame-1041.png'alt="Overlay Image Kansas" style={{ zIndex: 10 }}/>
+            </div>
+            <div className = 'absolute'style={{ bottom: '170px', right: '555px'}}>
+              <img 
+              className = 'h-24 w-20 transition-transform transform hover:scale-125 hover:opacity-90' 
+              src='https://i.ibb.co/jytt0C0/Frame-1039.png'alt="Overlay Image Kanrik" style={{ zIndex: 10 }}/>
+            </div>
+            <div className = 'absolute' style={{top: '430px', right: '600px'}}>
+            <img 
+            className = 'h-24 w-20 transition-transform transform hover:scale-125 hover:opacity-90' 
+            src='https://i.ibb.co/8Bb6Dph/Frame-1033.png'alt="Overlay Image Takor" style={{ zIndex: 10 }}/>
+            </div>
           </div>
         </div>
         {/* Your main content */}
+
         <div className="flex-grow">
           {/* Your existing content goes here */}
         </div>
@@ -84,7 +92,7 @@ export default function Home() {
 
             <div className="footer-nav">
               <div className="grid grid-rows-4 footer">
-                <Link href='/find-on-map' className='flex justify-start'><button className="footer-button">Find on Map</button></Link>
+                <Link href='/' className='flex justify-start'><button className="footer-button">Find on Map</button></Link>
                 <Link href='/reviews' className='flex justify-start'><button className="footer-button">Reviews</button></Link>
                 <Link href='/explore' className='flex justify-start'><button className="footer-button">Explore</button></Link>
                 <Link href='/meet-the-team' className='flex justify-start'><button className="footer-button">Meet the Team</button></Link>

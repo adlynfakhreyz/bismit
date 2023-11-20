@@ -5,7 +5,7 @@ import Image from 'next/image';
 import sendokgarpu from 'public/sendok-garpu.png'
 import footer from 'public/footer.png'
 
-export default function Home() {
+export default function meettheteam() {
   return (
     <main>
       <nav className='shadow-lg navbar'>
@@ -14,7 +14,7 @@ export default function Home() {
           <p className='review-kantin'>Review Kantin</p>
         </div>
         <div className='flex flex-row items-center'>
-          <Link className='nav-button' href='\find-on-map'>Find on Map</Link>          
+          <Link className='nav-button' href='\'>Find on Map</Link>          
           <Link className='nav-button' href='\reviews'>Reviews</Link>
           <Link className='nav-button' href='\explore'>Explore</Link>
           <Link className='nav-button' href='\meet-the-team'>Meet the Team</Link>
@@ -84,7 +84,7 @@ export default function Home() {
 
             <div className="footer-nav">
               <div className="grid grid-rows-4 footer">
-                <Link href='/find-on-map' className='flex justify-start'><button className="footer-button">Find on Map</button></Link>
+                <Link href='/' className='flex justify-start'><button className="footer-button">Find on Map</button></Link>
                 <Link href='/reviews' className='flex justify-start'><button className="footer-button">Reviews</button></Link>
                 <Link href='/explore' className='flex justify-start'><button className="footer-button">Explore</button></Link>
                 <Link href='/meet-the-team' className='flex justify-start'><button className="footer-button">Meet the Team</button></Link>

@@ -15,7 +15,7 @@ export default function explore() {
           <p className='review-kantin'>Review Kantin</p>
         </div>
         <div className='flex flex-row items-center'>
-          <Link className='nav-button' href='\find-on-map'>Find on Map</Link>          
+          <Link className='nav-button' href='\'>Find on Map</Link>          
           <Link className='nav-button' href='\reviews'>Reviews</Link>
           <Link className='nav-button' href='\explore'>Explore</Link>
           <Link className='nav-button' href='\meet-the-team'>Meet the Team</Link>
@@ -75,7 +75,7 @@ export default function explore() {
 
             <div className="footer-nav">
               <div className="grid grid-rows-4 footer">
-                <Link href='/find-on-map' className='flex justify-start'><button className="footer-button">Find on Map</button></Link>
+                <Link href='/' className='flex justify-start'><button className="footer-button">Find on Map</button></Link>
                 <Link href='/reviews' className='flex justify-start'><button className="footer-button">Reviews</button></Link>
                 <Link href='/explore' className='flex justify-start'><button className="footer-button">Explore</button></Link>
                 <Link href='/meet-the-team' className='flex justify-start'><button className="footer-button">Meet the Team</button></Link>
