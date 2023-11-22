@@ -217,6 +217,11 @@ text-align: left;
 
 .gambar {
   width: 56.2vw;
+  transition: transform 0.3s;
+}
+
+.gambar:hover {
+  transform: scale(1.09);
 }
 
 .most-mentioned-foods {
@@ -268,7 +273,11 @@ text-align: left;
   padding-bottom: 1.72vw;
   padding-right: 2.22vw;
   padding-left: 2.22vw;
-  border-radius: 1.389vw
+  border-radius: 1.389vw;
+  transition: transform 0.3s;
+}
+.reviews-bubble:hover {
+  transform: scale(1.09);
 }
 
 .reviews-desc {
